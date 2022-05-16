@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Spin } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { COLOR, STATUS } from "../constants";
+import { COLOR, STATUS } from "@/constants";
 
 interface Props {
   score: string | number;

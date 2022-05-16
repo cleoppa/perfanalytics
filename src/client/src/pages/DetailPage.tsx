@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { PageHeader } from "antd";
 import { useParams, useHistory } from "react-router-dom";
-import axios from "../utils/axiosInstance";
+import axios from "@/utils/axiosInstance";
 
 const DetailPage: React.FC = () => {
   const { id }: { id: string } = useParams();

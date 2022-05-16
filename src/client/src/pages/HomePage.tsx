@@ -8,11 +8,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop, faMobileAlt, faSearch } from "@fortawesome/free-solid-svg-icons";
 import validator from "validator";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import axios from "../utils/axiosInstance";
-import { DEVICE, STATUS } from "../constants";
-import EntryTable from "../components/EntryTable";
-import Indicator from "../components/Indicator";
-import { Entry } from "../interfaces";
+import axios from "@/utils/axiosInstance";
+import { DEVICE, STATUS } from "@/constants";
+import EntryTable from "@/components/EntryTable";
+import Indicator from "@/components/Indicator";
+import { Entry } from "@/interfaces";
 
 const { Search } = Input;
 const { Option } = Select;

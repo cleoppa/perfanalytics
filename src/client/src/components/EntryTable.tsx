@@ -1,7 +1,7 @@
 import React from "react";
 import { Table } from "antd";
 import { ColumnsType } from "antd/lib/table";
-import { Entry } from "../interfaces";
+import { Entry } from "@/interfaces";
 
 interface Props {
   data: Entry[];

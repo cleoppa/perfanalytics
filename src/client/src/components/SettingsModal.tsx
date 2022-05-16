@@ -4,10 +4,10 @@ import { useHistory } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import axios from "../utils/axiosInstance";
+import axios from "@/utils/axiosInstance";
 
-import { metrics, timeOptions } from "../utils/AppData";
-import { Entry, SlackMetrics } from "../interfaces";
+import { metrics, timeOptions } from "@/utils/AppData";
+import { Entry, SlackMetrics } from "@/interfaces";
 
 interface Props {
   id: string;

@@ -6,9 +6,9 @@ import moment from "moment";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Spin } from "antd";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import Indicator from "./Indicator";
-import { tableColumns } from "../utils/AppData";
-import { LighthouseResult } from "../interfaces";
+import Indicator from "@/components/Indicator";
+import { tableColumns } from "@/utils/AppData";
+import { LighthouseResult } from "src/interfaces";
 
 interface Props {
   data: LighthouseResult[];

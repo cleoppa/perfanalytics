@@ -7,13 +7,13 @@ import { faCog, faDesktop, faMobileAlt } from "@fortawesome/free-solid-svg-icons
 import { useHistory, useParams } from "react-router-dom";
 
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import UxChart from "../components/UxChart";
-import LineChart from "../components/LineChart";
-import DataTable from "../components/DataTable";
-import axios from "../utils/axiosInstance";
-import { STATUS, DATES, COLOR, DEVICE } from "../constants";
-import SettingsModal from "../components/SettingsModal";
-import { Entry, LhStatistic, LighthouseResult, Tag } from "../interfaces";
+import UxChart from "@/components/UxChart";
+import LineChart from "@/components/LineChart";
+import DataTable from "@/components/DataTable";
+import axios from "@/utils/axiosInstance";
+import { STATUS, DATES, COLOR, DEVICE } from "src/constants";
+import SettingsModal from "@/components/SettingsModal";
+import { Entry, LhStatistic, LighthouseResult, Tag } from "src/interfaces";
 
 interface Props {
   tags: Tag[];
